@@ -1,0 +1,12 @@
+.row > div {
+    background: lightgrey;
+    border: 1px solid grey;
+}
+
+.col{
+    height:100px;
+}
+
+.col.col1{
+    height:50px;
+}

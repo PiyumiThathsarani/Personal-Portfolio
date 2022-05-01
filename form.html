@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="form.js"></script> 
+    <link href="CSS/form.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+    <div class="container">
+        
+        <h1>Enter Deatails Here.</h1>
+        <form name="myForm" action="" onsubmit="return validateForm()" method="post" >
+            <label>Name</label><br>
+            <input type="text" name="fname" class="form-control" id="name" required><br>
+
+            <label>E-mail</label><br>
+            <input type="email" name="mail" id="e-mail" required><br>
+
+            <label>Recidence/Adress</label><br>
+            <textarea name="adress" id="adress" cols="20" rows="8" >Type your address..</textarea><br>
+
+            <label>Country</label><br>
+            <input type="text" name="country" id="country" required>
+            <br>
+
+            <label>Contact no</label><br>
+            <input type="number" name="contact" id="numloc" required><br>
+            
+            <label>Select your category/categoriess</label><br>
+
+            <input type="checkbox" value="selected" name="managerial" id="1"><label>Managerial</label>
+            <input type="checkbox" value="selected" name="business" id="2"><label>Business</label><br>
+            <input type="checkbox" value="selected" name="interactive" id="3"><label>Interactive</label>
+            <input type="checkbox" value="selected" name="educational" id="4"><label>  Educational</label> <br>
+            
+
+            <label>Description</label><br>
+            <textarea name="adress" id="adress" cols="20" rows="8" >Write a short description abut your needed web solution...</textarea><br>
+        
+            <input type="submit" value="ORDER"><br>
+        </form>
+         
+    </div>
+</body>
+</html>
